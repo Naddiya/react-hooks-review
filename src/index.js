@@ -5,6 +5,7 @@ import Effect from "./Effect";
 import Context from "./Context";
 import Ref from "./Ref";
 import Reducer from "./Reducer";
+import Memo from "./Memo";
 
 import "./styles.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Context />
       <Ref />
       <Reducer />
+      <Memo />
     </div>
   );
 }
