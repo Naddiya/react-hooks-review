@@ -7,6 +7,7 @@ import Ref from "./Ref";
 import Reducer from "./Reducer";
 import Memo from "./Memo";
 import Callback from "./Callback";
+import LayoutEffect from "./LayoutEffect";
 
 import "./styles.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Reducer />
       <Memo />
       <Callback />
+      < LayoutEffect />
     </div>
   );
 }
