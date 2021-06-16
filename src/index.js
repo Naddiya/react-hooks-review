@@ -9,6 +9,7 @@ import Memo from "./Memo";
 import Callback from "./Callback";
 import LayoutEffect from "./LayoutEffect";
 import ImperativeHandle from "./ImperativeHandle";
+import DebugValue from "./DebugValue";
 
 import "./styles.css";
 
@@ -22,8 +23,9 @@ function App() {
       <Reducer />
       <Memo />
       <Callback />
-      < LayoutEffect />
+      <LayoutEffect />
       <ImperativeHandle />
+      <DebugValue />
     </div>
   );
 }
